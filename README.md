@@ -119,11 +119,13 @@ Experienced in developing deep learning, reinforcement learning, and physics-bas
 
 <div align="center">
 
-![Galabavamsi's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Galabavamsi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Galabavamsi&layout=compact&theme=tokyonight&hide_border=true)
-
 ![GitHub Streak](https://streak-stats.demolab.com?user=Galabavamsi&theme=tokyonight&hide_border=true)
+
+![Galabavamsi's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Galabavamsi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=1800)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Galabavamsi&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800&langs_count=8)
+
+![Profile Views](https://komarev.com/ghpvc/?username=Galabavamsi&color=blueviolet&style=flat-square&label=Profile+Views)
 
 </div>
 
