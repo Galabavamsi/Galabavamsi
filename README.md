@@ -48,12 +48,14 @@ Experienced in developing deep learning, reinforcement learning, and physics-bas
 ![MuJoCo](https://img.shields.io/badge/MuJoCo-FF6B35?style=flat-square)
 ![PLC](https://img.shields.io/badge/PLC-0066CC?style=flat-square)
 ![DipTrace](https://img.shields.io/badge/DipTrace-6C3483?style=flat-square)
+![MEEP](https://img.shields.io/badge/MEEP_(FDTD)-0066CC?style=flat-square)
 
 ### 📡 Systems & Networks
 ![Wi-Fi PHY/MAC](https://img.shields.io/badge/WiFi_PHY%2FMAC-00BCD4?style=flat-square)
 ![IEEE 802.11](https://img.shields.io/badge/IEEE_802.11k%2Fv-1565C0?style=flat-square)
 ![SDR/USRP](https://img.shields.io/badge/SDR%2FUSRP-E53935?style=flat-square)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![OpenMPI](https://img.shields.io/badge/OpenMPI-FF4500?style=flat-square&logo=openmpi&logoColor=white)
 
 ### 🌐 Web & App
 ![React](https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black)
@@ -83,6 +85,18 @@ Experienced in developing deep learning, reinforcement learning, and physics-bas
 ---
 
 ## 🚀 Key Projects
+
+### 📡 [AntennaNet: Deep Learning for Inverse EM Design](https://github.com/Galabavamsi/Antenna-Net.git) *(2025 – Present)*
+> **Developer / Computational Electromagnetics Researcher**
+> 
+> An open-source framework for global optimization of electromagnetic antennas using differentiable forward surrogates and physics-constrained inverse design.
+
+- **Objective**: Replacing computationally expensive FDTD (CST Studio/HFSS) solvers with a **Forward Surrogate Neural Network** to predict $S_{11}$ frequency responses from geometric Lorentzian parameters.
+- **Core Innovation**: Developed the **Nearest-Neighbour Anchoring (NRA)** algorithm using **KD-Trees** to mitigate "hallucinated" geometry predictions by anchoring optimizer gradients to physically manufacturable manifolds.
+- **Scale**: Automated simulation of $12 \times 12$ binary pixel arrays (144D search space) via a custom **Python-MEEP** wrapper executed on **OpenMPI** clusters.
+- **Robustness**: Handled severe Gaussian noise injection ($10-20\%$) to prove the hyper-stability of the NRA optimizer against sensory degradation, outperforming standard heuristic models.
+
+---
 
 ### 🧬 AI-Powered Electron Interaction in Protein Structures *(2025 – Present)*
 > Designing Graph Neural Network (GNN) architectures to model complex electron interactions within protein structures, bridging deep learning and computational quantum chemistry.
