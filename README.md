@@ -64,6 +64,8 @@ Experienced in developing deep learning, reinforcement learning, and physics-bas
 ![WebGL](https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Behavioral Biometrics](https://img.shields.io/badge/Behavioral_Biometrics-FFD700?style=flat-square)
+![PrivacyTech](https://img.shields.io/badge/Privacy--First-008080?style=flat-square)
 
 ### 💻 Languages
 ![C++](https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
@@ -85,6 +87,18 @@ Experienced in developing deep learning, reinforcement learning, and physics-bas
 ---
 
 ## 🚀 Key Projects
+
+### 🛡️ [Human Slop – Anti-AI Social Platform](https://humanslop.in) *(2024 – 2026)*
+> **Co-Founder & Lead Engineer**
+> 
+> A privacy-first, verified-human social ecosystem designed to eliminate AI-generated "slop" through hardware and behavioral forensics.
+
+- **Biometric Integrity**: Implemented hardware-bound biometric authentication to ensure account uniqueness and prevent bot farming at the device level.
+- **Typing Forensics**: Developed real-time behavioral analysis engines (WPM, burst patterns, inter-keystroke intervals) to compute a **"Human Score,"** systematically filtering 100% of LLM-generated content.
+- **Architecture**: Engineered a high-availability **dual-database architecture** to separate encrypted user PII from social graph data, ensuring absolute privacy and scale.
+- **Deployment**: Co-developed and co-founded a fully deployed web and mobile platform, hosting a community dedicated to authentic, AI-free human interactions.
+
+---
 
 ### 📡 [AntennaNet: Deep Learning for Inverse EM Design](https://github.com/Galabavamsi/Antenna-Net.git) *(2025 – Present)*
 > **Developer / Computational Electromagnetics Researcher**
