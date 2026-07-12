@@ -24,15 +24,15 @@ My favorite work sits where research gets shipped: full-stack apps with real use
 <table>
   <tr>
     <td><strong>Currently</strong></td>
-    <td>Research Intern at IIT Bhilai working on 6G RIS simulation and testbed development</td>
+    <td>Open for Software Engineering, AI/ML Research, Computer Vision, and systems-heavy product roles</td>
   </tr>
   <tr>
     <td><strong>Building</strong></td>
     <td>Human Slop, an authenticity-first anti-AI social platform</td>
   </tr>
   <tr>
-    <td><strong>Open to</strong></td>
-    <td>Software Engineering, AI/ML Research, Computer Vision, and systems-heavy product roles</td>
+    <td><strong>Recent</strong></td>
+    <td>Completed a Research Internship at IIT Bhilai on 6G RIS simulation and testbed development in Aug 2025</td>
   </tr>
   <tr>
     <td><strong>Signal</strong></td>
