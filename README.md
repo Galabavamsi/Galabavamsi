@@ -1,19 +1,8 @@
 <div align="center">
 
-```text
-╭──────────────────────────────────────────────────────────────╮
-│  GALABA VAMSI  //  BUILDING SYSTEMS THAT SHIP               │
-│                                                              │
-│       ┌──────────────┐       ┌──────────────┐                │
-│       │  AI / ML     │──────▶│  ROBOTICS   │                │
-│       └──────┬───────┘       └──────┬───────┘                │
-│              │       ┌──────────────┘                        │
-│       ┌──────▼───────▼──────┐                              │
-│       │  software · vision  │                              │
-│       │  systems · graphics │                              │
-│       └─────────────────────┘                              │
-╰──────────────────────────────────────────────────────────────╯
-```
+<a href="https://github.com/Galabavamsi">
+  <img src="./assets/readme-header.svg" alt="Animated pixel-style header for Galaba Vamsi: AI and ML connected to robotics, software, vision, systems, and graphics" />
+</a>
 
 **Mechatronics undergraduate at IIT Bhilai** building across software engineering, AI/ML, computer vision, wireless systems, and GPU graphics.
 
@@ -33,7 +22,7 @@ OPEN TO     engineering and research roles where prototypes become products
 
 ## Open source
 
-In 2026, I contributed two maintainer-reviewed and merged pull requests to [HFlow](https://github.com/Hebbian-Robotics/hflow), an open-source robotics data processing and evaluation framework by Hebbian-Robotics.
+In 2026, I contributed two maintainer-reviewed and merged pull requests to [HFlow](https://github.com/Hebbian-Robotics/hflow), an open-source SDK for scalable multimodal data pipelines in robotics and Physical AI by [Hebbian Robotics (YC S26)](https://www.ycombinator.com/companies/hebbian-robotics).
 
 - [PR #350](https://github.com/Hebbian-Robotics/hflow/pull/350) addressed [issue #296](https://github.com/Hebbian-Robotics/hflow/issues/296): implemented paginated LeRobot tree traversal with `Link: rel="next"` headers, preserved User-Agent and authentication headers on every request, deduplicated paths, rejected unsafe cross-origin pagination URLs to prevent bearer-token leakage, prevented repeated-URL loops, and added regression tests for pagination, duplicate entries, malformed later pages, authentication preservation, cross-origin links, and self-referential links.
 - [PR #353](https://github.com/Hebbian-Robotics/hflow/pull/353) addressed [issue #292](https://github.com/Hebbian-Robotics/hflow/issues/292): fixed LeRobot video-cache collisions by including the camera key, video chunk index, and video file index in cache identity, bumped the converter version to invalidate stale outputs, and added outcome-focused tests for distinct-file handling and reuse of the same cached source.

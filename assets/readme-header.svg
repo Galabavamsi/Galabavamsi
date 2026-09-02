@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Galaba Vamsi — building systems that ship</title>
+  <desc id="desc">A dark pixel-style animated system diagram connecting AI and machine learning, robotics, software, vision, systems, and graphics.</desc>
+
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#161d26" />
+      <stop offset="1" stop-color="#0d1117" />
+    </linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f5e7d0" />
+      <stop offset="1" stop-color="#d98938" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#27313d" stroke-width="1" opacity=".36" />
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" rx="12" fill="url(#panel)" />
+  <rect x="16" y="16" width="1168" height="328" rx="8" fill="url(#grid)" opacity=".42" />
+  <rect x="16" y="16" width="1168" height="328" rx="8" fill="none" stroke="#3a4653" stroke-width="2" />
+
+  <g font-family="monospace" letter-spacing="2">
+    <text x="52" y="61" fill="#d98938" font-size="18">GV.EXE</text>
+    <text x="178" y="61" fill="#7f8b99" font-size="16">/</text>
+    <text x="204" y="61" fill="#f5e7d0" font-size="16">BUILDING SYSTEMS THAT SHIP</text>
+    <circle cx="1118" cy="54" r="5" fill="#d98938" filter="url(#glow)">
+      <animate attributeName="opacity" values=".35;1;.35" dur="2.4s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <g fill="none" stroke="#536170" stroke-width="2" stroke-linecap="square">
+    <path d="M 300 145 H 520" />
+    <path d="M 680 145 H 900" />
+    <path d="M 600 178 V 234" />
+    <path d="M 300 286 H 900" stroke-dasharray="8 10" opacity=".7" />
+  </g>
+
+  <g fill="#d98938" filter="url(#glow)">
+    <circle r="5">
+      <animate attributeName="cx" values="300;520" dur="2.8s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="145;145" dur="2.8s" repeatCount="indefinite" />
+    </circle>
+    <circle r="5">
+      <animate attributeName="cx" values="680;900" dur="3.4s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="145;145" dur="3.4s" repeatCount="indefinite" />
+    </circle>
+    <circle r="5">
+      <animate attributeName="cx" values="600;600" dur="2.2s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="178;234" dur="2.2s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <g font-family="monospace" text-anchor="middle">
+    <g>
+      <rect x="120" y="108" width="180" height="74" rx="4" fill="#121820" stroke="#d98938" stroke-width="2" />
+      <text x="210" y="138" fill="#f5e7d0" font-size="17" letter-spacing="2">AI / ML</text>
+      <text x="210" y="163" fill="#7f8b99" font-size="12" letter-spacing="1">MODELS + DATA</text>
+      <rect x="132" y="120" width="4" height="50" fill="#d98938">
+        <animate attributeName="height" values="10;50;10" dur="2.1s" repeatCount="indefinite" />
+      </rect>
+    </g>
+
+    <g>
+      <rect x="520" y="108" width="160" height="74" rx="4" fill="#121820" stroke="#f5e7d0" stroke-width="2" />
+      <text x="600" y="138" fill="#f5e7d0" font-size="17" letter-spacing="2">CORE</text>
+      <text x="600" y="163" fill="#7f8b99" font-size="12" letter-spacing="1">SHIP + LEARN</text>
+    </g>
+
+    <g>
+      <rect x="900" y="108" width="180" height="74" rx="4" fill="#121820" stroke="#d98938" stroke-width="2" />
+      <text x="990" y="138" fill="#f5e7d0" font-size="17" letter-spacing="2">ROBOTICS</text>
+      <text x="990" y="163" fill="#7f8b99" font-size="12" letter-spacing="1">PHYSICAL AI</text>
+    </g>
+
+    <g>
+      <rect x="350" y="234" width="500" height="70" rx="4" fill="#121820" stroke="#536170" stroke-width="2" />
+      <text x="600" y="263" fill="#f5e7d0" font-size="15" letter-spacing="2">SOFTWARE · VISION · SYSTEMS · GRAPHICS</text>
+      <text x="600" y="286" fill="#d98938" font-size="12" letter-spacing="2">OPEN SOURCE / PHYSICAL AI / GPU</text>
+    </g>
+  </g>
+
+  <g font-family="monospace" font-size="13" letter-spacing="1">
+    <text x="52" y="323" fill="#7f8b99">STATUS:</text>
+    <text x="132" y="323" fill="#d98938">ONLINE</text>
+    <text x="1005" y="323" fill="#7f8b99">&gt; <tspan fill="#f5e7d0">_</tspan></text>
+    <rect x="1037" y="312" width="8" height="15" fill="#d98938">
+      <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <rect x="20" y="20" width="1160" height="3" fill="#d98938" opacity=".28">
+    <animate attributeName="y" values="20;337;20" dur="5.8s" repeatCount="indefinite" />
+  </rect>
+</svg>
