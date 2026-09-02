@@ -38,9 +38,11 @@ Open-source robotics data processing and evaluation framework · **4 merged PRs*
 
 </details>
 
-### [inspect-robots](https://github.com/robocurve/inspect-robots) · pending review
+### [Inspect Robots](https://github.com/robocurve/inspect-robots) · [Robocurve (YC Summer 2026)](https://www.ycombinator.com/companies/robocurve)
 
-<a href="https://robocurve.org/">Robocurve</a> is an active YC Summer 2026 San Francisco Public Benefit Corporation building open-source tools and independent benchmarks for physical AI. <a href="https://github.com/robocurve/inspect-robots">Inspect Robots</a> is its MIT-licensed evaluation framework for physical AI.
+MIT-licensed open-source evaluation framework for physical AI · **1 PR awaiting approval**
+
+<a href="https://robocurve.org/">Robocurve</a> is a San Francisco Public Benefit Corporation building open-source tools and independent benchmarks for physical AI.
 
 [PR #434 · awaiting approval](https://github.com/robocurve/inspect-robots/pull/434) — Added a first-party `inspect-robots-wandb` plugin with a `WandbSink` for recording evaluation configuration and final aggregate metrics in one Weights & Biases run per evaluation.
 
