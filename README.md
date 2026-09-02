@@ -54,8 +54,9 @@ SYSTEMS     Git · Linux · GitHub Actions · CI/CD · ROS 2 · MEEP · OpenMPI 
 </details>
 
 <details>
-<summary><strong>Research & signals</strong></summary>
+<summary><strong>Experience & research</strong></summary>
 
+- Marketing Intern, Swiggy Ltd - Campus CEO project, May-July 2024; contributed to campus marketing initiatives and execution.
 - Research intern at IIT Bhilai on 6G RIS simulation and testbed development, May–August 2025.
 - First-author work: *An Open Emulator for Smart Radio Environments*.
 - 5th rank at the Arista Networks Wi-Fi Optimization Challenge, Inter IIT Tech Meet 14.0.
