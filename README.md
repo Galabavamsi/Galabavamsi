@@ -18,6 +18,7 @@
 FOCUS       software engineering · AI/ML research · computer vision · systems
 BUILDING    Human Slop — an authenticity-first anti-AI social platform (2026–present)
 OPEN TO     engineering and research roles where prototypes become products
+OPEN SOURCE 4 merged HFlow PRs · 1 accepted HFlow issue · 1 inspect-robots PR awaiting approval
 ```
 
 ## Open source
@@ -36,6 +37,10 @@ Open-source robotics data processing and evaluation framework · **4 merged PRs*
 - [Issue #365 · accepted / in progress](https://github.com/Hebbian-Robotics/hflow/issues/365) — Improve cold `camera_frame_stats` throughput on 1080p video without weakening per-frame evidence; working on it now.
 
 </details>
+
+### [inspect-robots](https://github.com/robocurve/inspect-robots) · pending review
+
+[PR #434 · awaiting approval](https://github.com/robocurve/inspect-robots/pull/434) — Added a first-party `inspect-robots-wandb` plugin with a `WandbSink` for recording evaluation configuration and final aggregate metrics in one Weights & Biases run per evaluation.
 
 
 ## Selected work
