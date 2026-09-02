@@ -6,7 +6,7 @@
 
 **Mechatronics undergraduate at IIT Bhilai** building across software engineering, AI/ML, computer vision, wireless systems, and GPU graphics.
 
-[portfolio](https://galabavamsi.github.io/portfolio/) · [LinkedIn](https://linkedin.com/in/galaba-vamsi-334758211) · [email](mailto:galabavamsi12@gmail.com) · [Human Slop](https://humanslop.in)
+[portfolio](https://galabavamsi.github.io/portfolio/) · [resume](https://galabavamsi.github.io/portfolio/resume_vamsi.pdf) · [LinkedIn](https://linkedin.com/in/galaba-vamsi-334758211) · [email](mailto:galabavamsi12@gmail.com) · [Human Slop](https://humanslop.in)
 
 </div>
 
@@ -16,7 +16,7 @@
 
 ```text
 FOCUS       software engineering · AI/ML research · computer vision · systems
-BUILDING    Human Slop — an authenticity-first anti-AI social platform
+BUILDING    Human Slop — an authenticity-first anti-AI social platform (2026–present)
 OPEN TO     engineering and research roles where prototypes become products
 ```
 
@@ -35,6 +35,7 @@ Open-source SDK for scalable multimodal data pipelines in robotics and Physical 
 | Project | What I built |
 |---|---|
 | [Human Slop](https://humanslop.in) | Anti-AI social platform centered on manual writing, behavioral typing signals, and authenticity-first interaction. |
+| [Arista Wi-Fi RRM](https://canva.link/puoqbe4okoid8rb) | Client-aware NS-3 RRM with 3 RF metrics, 100,000-sample I/Q captures, 16-class Dual-CNN inference, and a 5-AP / 50-client topology. |
 | [AntennaNet](https://github.com/Galabavamsi/Antenna-Net) | Inverse EM design tooling with KD-tree anchoring across 144D antenna search spaces. |
 | [Electron-GNN](https://github.com/Galabavamsi/Electron-GNN) | Two-tower GATv2 model for predicting molecular absorption spectra from geometry. |
 | [RIS Simulator](https://github.com/Galabavamsi/RIS-SIM) | Zero-budget open-source emulator for smart radio environments and USRP-like LoS/NLoS behavior. |
