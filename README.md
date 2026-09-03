@@ -18,23 +18,23 @@
 FOCUS       software engineering · AI/ML research · computer vision · systems
 BUILDING    Human Slop — an authenticity-first anti-AI social platform (2026–present)
 OPEN TO     engineering and research roles where prototypes become products
-OPEN SOURCE 4 merged HFlow PRs · 1 accepted HFlow issue · 1 inspect-robots PR awaiting approval
+OPEN SOURCE 5 merged HFlow PRs · HFlow issue #365 resolved · 1 inspect-robots PR awaiting approval
 ```
 
 ## Open source
 
 ### [HFlow](https://github.com/Hebbian-Robotics/hflow) · [Hebbian Robotics (YC S26)](https://www.ycombinator.com/companies/hebbian-robotics)
 
-Open-source robotics data processing and evaluation framework · **4 merged PRs** · **1 accepted issue in progress**
+Open-source robotics data processing and evaluation framework · **5 merged PRs** · **issue #365 resolved by PR #367**
 
 <details open>
 <summary>Contribution log</summary>
 
-- [PR #350 · merged](https://github.com/Hebbian-Robotics/hflow/pull/350) · [issue #296](https://github.com/Hebbian-Robotics/hflow/issues/296) — LeRobot’s Hugging Face tree discovery stopped after the first API page; added paginated traversal via `Link: rel="next"`, preserved request headers, deduplicated paths, rejected unsafe cross-origin links, and prevented pagination loops.
-- [PR #353 · merged](https://github.com/Hebbian-Robotics/hflow/pull/353) · [issue #292](https://github.com/Hebbian-Robotics/hflow/issues/292) — LeRobot video-cache filenames omitted the video file index; included the camera key, video chunk index, and video file index in cache identity and bumped the converter version to invalidate stale outputs.
-- [PR #360 · merged](https://github.com/Hebbian-Robotics/hflow/pull/360) · [issue #314](https://github.com/Hebbian-Robotics/hflow/issues/314) — Centralized ingest URI parsing across the CLI, server, and SDK with shared trimming and safety checks; normalized safe relative URIs and rejected blank, absolute, and parent-escaping paths.
+- [PR #367 · merged · featured](https://github.com/Hebbian-Robotics/hflow/pull/367) · [issue #365](https://github.com/Hebbian-Robotics/hflow/issues/365) — Added a reproducible cold `camera_frame_stats` evidence benchmark with separate transform timing, fresh episode workdirs, and FFmpeg/CPU provenance reporting; resolved the issue without changing the shipped filter graph.
 - [PR #362 · merged](https://github.com/Hebbian-Robotics/hflow/pull/362) — Matched saved EgoSuite labels by HFlow source provenance instead of basenames, preserving unambiguous legacy reports and rejecting ambiguous matches.
-- [Issue #365 · accepted / in progress](https://github.com/Hebbian-Robotics/hflow/issues/365) — Improve cold `camera_frame_stats` throughput on 1080p video without weakening per-frame evidence; working on it now.
+- [PR #360 · merged](https://github.com/Hebbian-Robotics/hflow/pull/360) · [issue #314](https://github.com/Hebbian-Robotics/hflow/issues/314) — Centralized ingest URI parsing across the CLI, server, and SDK with shared trimming and safety checks; normalized safe relative URIs and rejected blank, absolute, and parent-escaping paths.
+- [PR #353 · merged](https://github.com/Hebbian-Robotics/hflow/pull/353) · [issue #292](https://github.com/Hebbian-Robotics/hflow/issues/292) — LeRobot video-cache filenames omitted the video file index; included the camera key, video chunk index, and video file index in cache identity and bumped the converter version to invalidate stale outputs.
+- [PR #350 · merged](https://github.com/Hebbian-Robotics/hflow/pull/350) · [issue #296](https://github.com/Hebbian-Robotics/hflow/issues/296) — LeRobot’s Hugging Face tree discovery stopped after the first API page; added paginated traversal via `Link: rel="next"`, preserved request headers, deduplicated paths, rejected unsafe cross-origin links, and prevented pagination loops.
 
 </details>
 
