@@ -18,18 +18,19 @@
 FOCUS       software engineering · AI/ML research · computer vision · systems
 BUILDING    Human Slop — an authenticity-first anti-AI social platform (2026–present)
 OPEN TO     engineering and research roles where prototypes become products
-OPEN SOURCE 5 merged HFlow PRs · HFlow issue #365 resolved · 1 inspect-robots PR awaiting approval
+OPEN SOURCE 6 merged HFlow PRs · HFlow issue #365 resolved · 1 inspect-robots PR awaiting approval
 ```
 
 ## Open source
 
 ### [HFlow](https://github.com/Hebbian-Robotics/hflow) · [Hebbian Robotics (YC S26)](https://www.ycombinator.com/companies/hebbian-robotics)
 
-Open-source robotics data processing and evaluation framework · **5 merged PRs** · **issue #365 resolved by PR #367**
+Open-source robotics data processing and evaluation framework · **6 merged PRs** · **issue #365 resolved by PR #367**
 
 <details open>
 <summary>Contribution log</summary>
 
+- [PR #400 · merged](https://github.com/Hebbian-Robotics/hflow/pull/400) · [issue #399](https://github.com/Hebbian-Robotics/hflow/issues/399) — Refused LeRobot depth videos before conversion when depth markers were present, preventing the RGB H.264 path from silently losing 12-bit depth semantics while preserving the existing RGB path.
 - [PR #367 · merged · featured](https://github.com/Hebbian-Robotics/hflow/pull/367) · [issue #365](https://github.com/Hebbian-Robotics/hflow/issues/365) — Added a reproducible cold `camera_frame_stats` evidence benchmark with separate transform timing, fresh episode workdirs, and FFmpeg/CPU provenance reporting; resolved the issue without changing the shipped filter graph.
 - [PR #362 · merged](https://github.com/Hebbian-Robotics/hflow/pull/362) — Matched saved EgoSuite labels by HFlow source provenance instead of basenames, preserving unambiguous legacy reports and rejecting ambiguous matches.
 - [PR #360 · merged](https://github.com/Hebbian-Robotics/hflow/pull/360) · [issue #314](https://github.com/Hebbian-Robotics/hflow/issues/314) — Centralized ingest URI parsing across the CLI, server, and SDK with shared trimming and safety checks; normalized safe relative URIs and rejected blank, absolute, and parent-escaping paths.
@@ -52,6 +53,10 @@ MIT-licensed open-source evaluation framework for physical AI · **1 PR awaiting
 | Project | What I built |
 |---|---|
 | [Human Slop](https://humanslop.in) | Anti-AI social platform centered on manual writing, behavioral typing signals, and authenticity-first interaction. |
+| [Charter](https://github.com/Galabavamsi/charter) | Agentic commerce prototype with chat, voice, and MCP doors sharing a bounded Razorpay test-mode payment core. |
+| [Pneumatic Sorting Digital Twin](https://github.com/Galabavamsi/pneumatic-sorting-digital-twin) | Open-source Unity digital twin for modular electropneumatic sorting and stamping workflows. |
+| [HeatCast](https://github.com/Galabavamsi/heatcast) | Neighborhood heat-planning scorecard combining thermal maps, vulnerability data, indoor sites, walking routes, and planning tools. |
+| [AI Village Pond Planning](https://github.com/Galabavamsi/ai-village-pond-planning) | Terrain-only API that derives pond-site and catchment recommendations from contour maps and returns GeoJSON. |
 | [Arista Wi-Fi RRM](https://canva.link/puoqbe4okoid8rb) | Client-aware NS-3 RRM with 3 RF metrics, 100,000-sample I/Q captures, 16-class Dual-CNN inference, and a 5-AP / 50-client topology. |
 | [AntennaNet](https://github.com/Galabavamsi/Antenna-Net) | Inverse EM design tooling with KD-tree anchoring across 144D antenna search spaces. |
 | [Electron-GNN](https://github.com/Galabavamsi/Electron-GNN) | Two-tower GATv2 model for predicting molecular absorption spectra from geometry. |
