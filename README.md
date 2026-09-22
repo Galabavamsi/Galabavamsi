@@ -6,7 +6,9 @@
 
 **Mechatronics undergraduate at IIT Bhilai** building across software engineering, AI/ML, computer vision, wireless systems, and GPU graphics.
 
-[portfolio](https://galabavamsi.github.io/portfolio/) · [resume](https://galabavamsi.github.io/portfolio/resume_vamsi.pdf) · [LinkedIn](https://linkedin.com/in/galaba-vamsi-334758211) · [email](mailto:galabavamsi12@gmail.com) · [Human Slop](https://humanslop.in)
+[portfolio](https://galabavamsi.github.io/portfolio/) · [resume](https://galabavamsi.github.io/portfolio/resume_vamsi.pdf) · [LinkedIn](https://linkedin.com/in/galaba-vamsi-334758211) · [email](mailto:galabavamsi12@gmail.com)
+
+[YouTube](https://www.youtube.com/@galabavamsi12) · [Google Scholar](https://scholar.google.com/citations?user=UNjZa1sAAAAJ&hl=en) · [ResearchGate](https://www.researchgate.net/profile/Galaba-Vamsi) · [IEEE Xplore](https://ieeexplore.ieee.org/author/943675488152924) · [X](https://x.com/Galaba_Vamsi) · [Human Slop](https://humanslop.in)
 
 </div>
 
@@ -18,18 +20,19 @@
 FOCUS       software engineering · AI/ML research · computer vision · systems
 BUILDING    Human Slop — an authenticity-first anti-AI social platform (2026–present)
 OPEN TO     engineering and research roles where prototypes become products
-OPEN SOURCE 6 merged HFlow PRs · HFlow issue #365 resolved · 1 inspect-robots PR awaiting approval
+OPEN SOURCE 7 merged HFlow PRs · 3 open Inspect Robots PRs · latest HFlow fix #598
 ```
 
 ## Open source
 
 ### [HFlow](https://github.com/Hebbian-Robotics/hflow) · [Hebbian Robotics (YC S26)](https://www.ycombinator.com/companies/hebbian-robotics)
 
-Open-source robotics data processing and evaluation framework · **6 merged PRs** · **issue #365 resolved by PR #367**
+Open-source robotics data processing and evaluation framework · **7 merged PRs** · **issue #597 resolved by PR #598**
 
 <details open>
 <summary>Contribution log</summary>
 
+- [PR #598 · merged · latest](https://github.com/Hebbian-Robotics/hflow/pull/598) · [issue #597](https://github.com/Hebbian-Robotics/hflow/issues/597) — Refused sources with multiple channels on one topic before canonical episode creation, added `hflow doctor` diagnostics for the unsupported shape, and bumped `TRANSFORM_BEHAVIOR_VERSION` to `10`.
 - [PR #400 · merged](https://github.com/Hebbian-Robotics/hflow/pull/400) · [issue #399](https://github.com/Hebbian-Robotics/hflow/issues/399) — Refused LeRobot depth videos before conversion when depth markers were present, preventing the RGB H.264 path from silently losing 12-bit depth semantics while preserving the existing RGB path.
 - [PR #367 · merged · featured](https://github.com/Hebbian-Robotics/hflow/pull/367) · [issue #365](https://github.com/Hebbian-Robotics/hflow/issues/365) — Added a reproducible cold `camera_frame_stats` evidence benchmark: 3 cold 1080p30 checks, 900 decoded frames each, and a 4.897 s median; separated transform timing and provenance, and documented that no repeatable semantics-preserving speedup was demonstrated, so the shipped filter graph stayed unchanged.
 - [PR #362 · merged](https://github.com/Hebbian-Robotics/hflow/pull/362) — Matched saved EgoSuite labels by HFlow source provenance instead of basenames, preserving unambiguous legacy reports and rejecting ambiguous matches.
@@ -39,13 +42,19 @@ Open-source robotics data processing and evaluation framework · **6 merged PRs*
 
 </details>
 
+[Full HFlow contribution list](https://github.com/Hebbian-Robotics/hflow/pulls?q=is%3Apr+state%3Aclosed+author%3AGalabavamsi)
+
 ### [Inspect Robots](https://github.com/robocurve/inspect-robots) · [Robocurve (YC Summer 2026)](https://www.ycombinator.com/companies/robocurve)
 
-MIT-licensed open-source evaluation framework for physical AI · **1 PR awaiting approval**
+MIT-licensed open-source evaluation framework for physical AI · **3 open PRs under review**
 
 <a href="https://robocurve.org/">Robocurve</a> is a San Francisco Public Benefit Corporation building open-source tools and independent benchmarks for physical AI.
 
-[PR #434 · awaiting approval](https://github.com/robocurve/inspect-robots/pull/434) — Added a first-party `inspect-robots-wandb` plugin with a `WandbSink` for recording evaluation configuration and final aggregate metrics in one Weights & Biases run per evaluation.
+- [PR #476 · open](https://github.com/robocurve/inspect-robots/pull/476) — Exposed configurable retry limits and backoff across agent integrations, honored valid `Retry-After` headers, and recorded effective retry settings in `EvalSpec.policy_config`.
+- [PR #475 · open](https://github.com/robocurve/inspect-robots/pull/475) — Preserved unknown git working-tree provenance when `git status` fails instead of presenting a bare commit SHA as verified-clean.
+- [PR #434 · open](https://github.com/robocurve/inspect-robots/pull/434) — Added a first-party `inspect-robots-wandb` plugin with a `WandbSink` for recording evaluation configuration and final aggregate metrics in one Weights & Biases run per evaluation.
+
+[All open Inspect Robots contributions](https://github.com/robocurve/inspect-robots/pulls?q=is%3Apr+state%3Aopen+author%3AGalabavamsi)
 
 
 ## Selected work
