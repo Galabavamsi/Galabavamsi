@@ -20,7 +20,7 @@
 FOCUS       software engineering · AI/ML research · computer vision · systems
 BUILDING    Human Slop — an authenticity-first anti-AI social platform (2026–present)
 OPEN TO     engineering and research roles where prototypes become products
-OPEN SOURCE 7 merged HFlow PRs · 1 merged + 2 open Inspect Robots PRs · latest HFlow fix #598
+OPEN SOURCE 7 merged HFlow PRs · 2 merged + 1 open Inspect Robots PR · latest HFlow fix #598
 ```
 
 ## Open source
@@ -46,12 +46,12 @@ Open-source robotics data processing and evaluation framework · **7 merged PRs*
 
 ### [Inspect Robots](https://github.com/robocurve/inspect-robots) · [Robocurve (YC Summer 2026)](https://www.ycombinator.com/companies/robocurve)
 
-MIT-licensed open-source evaluation framework for physical AI · **1 merged PR · 2 open PRs under review**
+MIT-licensed open-source evaluation framework for physical AI · **2 merged PRs · 1 open PR under review**
 
 <a href="https://robocurve.org/">Robocurve</a> is a San Francisco Public Benefit Corporation building open-source tools and independent benchmarks for physical AI.
 
 - [PR #476 · merged](https://github.com/robocurve/inspect-robots/pull/476) — Exposed configurable retry limits and backoff across agent integrations, honored valid `Retry-After` headers, and recorded effective retry settings in `EvalSpec.policy_config`.
-- [PR #475 · open](https://github.com/robocurve/inspect-robots/pull/475) — Preserved unknown git working-tree provenance when `git status` fails instead of presenting a bare commit SHA as verified-clean.
+- [PR #475 · merged](https://github.com/robocurve/inspect-robots/pull/475) — Preserved unknown git working-tree provenance when `git status` fails instead of presenting a bare commit SHA as verified-clean.
 - [PR #434 · open](https://github.com/robocurve/inspect-robots/pull/434) — Added a first-party `inspect-robots-wandb` plugin with a `WandbSink` for recording evaluation configuration and final aggregate metrics in one Weights & Biases run per evaluation.
 
 [All open Inspect Robots contributions](https://github.com/robocurve/inspect-robots/pulls?q=is%3Apr+state%3Aopen+author%3AGalabavamsi)
