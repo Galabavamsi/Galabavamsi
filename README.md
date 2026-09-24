@@ -56,6 +56,8 @@ MIT-licensed open-source evaluation framework for physical AI · **2 merged PRs 
 
 [All open Inspect Robots contributions](https://github.com/robocurve/inspect-robots/pulls?q=is%3Apr+state%3Aopen+author%3AGalabavamsi)
 
+Accepted an invitation to co-author the forthcoming arXiv paper describing the Inspect Robots framework; manuscript preparation is underway.
+
 
 ## Selected work
 
