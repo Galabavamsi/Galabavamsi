@@ -20,19 +20,20 @@
 FOCUS       software engineering · AI/ML research · computer vision · systems
 BUILDING    Human Slop — an authenticity-first anti-AI social platform (2026–present)
 OPEN TO     engineering and research roles where prototypes become products
-OPEN SOURCE 7 HFlow + 2 Inspect Robots + 3 Cerulion merged PRs · inspect-robots-wandb on PyPI · 5 open PRs awaiting merge
+OPEN SOURCE 8 HFlow + 2 Inspect Robots + 5 Cerulion merged PRs · 3 open Inspect Robots PRs · W&B sink published as a standalone plugin
 ```
 
 ## Open source
 
 ### [HFlow](https://github.com/Hebbian-Robotics/hflow) · [Hebbian Robotics (YC S26)](https://www.ycombinator.com/companies/hebbian-robotics)
 
-Open-source robotics data processing and evaluation framework · **7 merged PRs** · **issue #597 resolved by PR #598**
+Open-source robotics data processing and evaluation framework · **8 merged PRs** · **issue #656 resolved by PR #657**
 
 <details open>
 <summary>Contribution log</summary>
 
-- [PR #598 · merged · latest](https://github.com/Hebbian-Robotics/hflow/pull/598) · [issue #597](https://github.com/Hebbian-Robotics/hflow/issues/597) — Refused sources with multiple channels on one topic before canonical episode creation, added `hflow doctor` diagnostics for the unsupported shape, and bumped `TRANSFORM_BEHAVIOR_VERSION` to `10`.
+- [PR #657 · merged · latest](https://github.com/Hebbian-Robotics/hflow/pull/657) · [issue #656](https://github.com/Hebbian-Robotics/hflow/issues/656) — Types Arrow columns from every message, preserving fields introduced after startup and reporting incompatible shapes with topic and field context.
+- [PR #598 · merged](https://github.com/Hebbian-Robotics/hflow/pull/598) · [issue #597](https://github.com/Hebbian-Robotics/hflow/issues/597) — Refused sources with multiple channels on one topic before canonical episode creation, added `hflow doctor` diagnostics for the unsupported shape, and bumped `TRANSFORM_BEHAVIOR_VERSION` to `10`.
 - [PR #400 · merged](https://github.com/Hebbian-Robotics/hflow/pull/400) · [issue #399](https://github.com/Hebbian-Robotics/hflow/issues/399) — Refused LeRobot depth videos before conversion when depth markers were present, preventing the RGB H.264 path from silently losing 12-bit depth semantics while preserving the existing RGB path.
 - [PR #367 · merged · featured](https://github.com/Hebbian-Robotics/hflow/pull/367) · [issue #365](https://github.com/Hebbian-Robotics/hflow/issues/365) — Added a reproducible cold `camera_frame_stats` evidence benchmark: 3 cold 1080p30 checks, 900 decoded frames each, and a 4.897 s median; separated transform timing and provenance, and documented that no repeatable semantics-preserving speedup was demonstrated, so the shipped filter graph stayed unchanged.
 - [PR #362 · merged](https://github.com/Hebbian-Robotics/hflow/pull/362) — Matched saved EgoSuite labels by HFlow source provenance instead of basenames, preserving unambiguous legacy reports and rejecting ambiguous matches.
@@ -60,10 +61,10 @@ MIT-licensed open-source evaluation framework for robot AI ("Inspect AI for robo
 
 ### [Cerulion](https://github.com/cerulion-inc/cerulion)
 
-Zero-copy, deterministic communication framework for real-time robotics, in Rust · **3 merged PRs** · **2 open PRs awaiting merge** · [all PRs](https://github.com/cerulion-inc/cerulion/pulls?q=is%3Apr+author%3AGalabavamsi)
+Open-source robot runtime with ROS 2 interoperability · **5 merged PRs** · **no open PRs** · [all PRs](https://github.com/cerulion-inc/cerulion/pulls?q=is%3Apr+author%3AGalabavamsi)
 
-- [PR #216 · open, awaiting merge](https://github.com/cerulion-inc/cerulion/pull/216) · issue #53 — `ros2 attach --dry-run` runs outside a workspace using an exclusively created temp root with RAII cleanup, so a pre-planted directory cannot change the report.
-- [PR #226 · open, awaiting merge](https://github.com/cerulion-inc/cerulion/pull/226) · issue #71 — Documented the fail-closed arm of the `CERULION_NETWORK` kill-switch; review surfaced a real gap, filed as issue #239.
+- [PR #216 · merged](https://github.com/cerulion-inc/cerulion/pull/216) · issue #53 — `ros2 attach --dry-run` runs outside a workspace using an exclusively created temp root with RAII cleanup, so a pre-planted directory cannot change the report.
+- [PR #226 · merged](https://github.com/cerulion-inc/cerulion/pull/226) · issue #71 — Documented the fail-closed arm of the `CERULION_NETWORK` kill-switch; review surfaced a real gap, filed as issue #239.
 - [PR #224 · merged](https://github.com/cerulion-inc/cerulion/pull/224) — Fixed 21 stale `USER_API.md` references across 11 files.
 - [PR #222 · merged](https://github.com/cerulion-inc/cerulion/pull/222) — ASCII punctuation in shipped doc comments (26 em dashes).
 - [PR #220 · merged](https://github.com/cerulion-inc/cerulion/pull/220) — Corrected misleading workspace-root comments in `cerulion_cli_engine`.
