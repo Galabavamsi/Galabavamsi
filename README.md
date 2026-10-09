@@ -67,10 +67,10 @@ Open-source robot runtime with ROS 2 interoperability · **5 merged PRs**
 
 ## Research
 
-- **First author.** *An Open Emulator for Smart Radio Environments* ([paper](https://drive.google.com/file/d/12oDPsflaUXKnSjfA3247HgFDDf4bJkCP/view?usp=drive_link)), from my 6G RIS research internship at IIT Bhilai, May to August 2025.
 - **Co-author.** *Experience with RF Energy Harvesting-Driven Self-Powered RIS*, IEEE INDICON 2025 ([IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11392908/)).
-- **Co-author.** *A systematic literature review on simulation models and deployments for reconfigurable intelligent surfaces* ([ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1570870526001964)).
+- **Co-author.** *A systematic literature review on simulation models and deployments for reconfigurable intelligent surfaces*, Ad Hoc Networks (Elsevier), 2026 ([ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1570870526001964)).
 - **Co-author, under review.** *Inspect Robots: Evaluating the Capabilities and Safety of Embodied AI*, CoRL 2026 Workshop SPAIS.
+- **First author, manuscript.** *An Open Emulator for Smart Radio Environments* ([draft](https://drive.google.com/file/d/12oDPsflaUXKnSjfA3247HgFDDf4bJkCP/view?usp=drive_link)), from my 6G RIS research internship at IIT Bhilai, May to August 2025. An arXiv preprint is in preparation.
 
 [Google Scholar](https://scholar.google.com/citations?user=UNjZa1sAAAAJ&hl=en) · [ResearchGate](https://www.researchgate.net/profile/Galaba-Vamsi) · [IEEE Xplore](https://ieeexplore.ieee.org/author/943675488152924)
 
@@ -81,6 +81,8 @@ Open-source robot runtime with ROS 2 interoperability · **5 merged PRs**
 | [Human Slop](https://humanslop.in) | Anti-AI social platform on web and Android, built on manual writing, real-time typing forensics, and hardware-bound biometric sign-in. |
 | [Charter](https://github.com/Galabavamsi/charter) | Agentic commerce prototype: chat, voice, and MCP doors (10 MCP tools) sharing one bounded Razorpay test-mode payment core. |
 | [Pneumatic Sorting Digital Twin](https://github.com/Galabavamsi/pneumatic-sorting-digital-twin) | Open-source Unity digital twin for modular electropneumatic sorting and stamping, with HMI flows, telemetry, and replay. |
+| [Quarter-car active suspension](https://quarter-car-afc.vercel.app) | Course project reproducing an IEEE TSMC 2022 approximation-free suspension controller in MATLAB within 7% of the paper's Case-10 result, then testing its claims against LQR and skyhook baselines. [Code](https://github.com/Galabavamsi/quarter-car-afc-replication). |
+| [Whiteboard cleaning robot](https://github.com/Galabavamsi/whiteboard_robot) | 3-DOF Cartesian robot in ROS 2 Jazzy and Gazebo Harmonic: custom URDF, ros2_control, and a raster coverage path with 10 cm overlap. |
 | [RIM-SIM v2](https://github.com/Galabavamsi/RIM-SIM-V2) | Zero-budget emulator for smart radio environments with USRP-style interfaces: 6 LoS/NLoS scenarios, a 20 Hz WebSocket feed, 103 tests. |
 | [Arista Wi-Fi RRM](https://canva.link/puoqbe4okoid8rb) | Client-aware NS-3 RRM: 3 RF metrics, 100,000 I/Q samples into 16 classes with a Dual-CNN, 5 APs and 50 clients. 5th at Inter IIT 14.0. |
 | [Electron-GNN](https://github.com/Galabavamsi/Electron-GNN) | Two-tower GATv2 model that predicts molecular absorption spectra from geometry. |
@@ -92,7 +94,7 @@ Open-source robot runtime with ROS 2 interoperability · **5 merged PRs**
 ## Recognition
 
 - 5th rank, Arista Networks Wi-Fi Optimization Challenge, Inter IIT Tech Meet 14.0
-- Top 3.5%, Amazon ML Challenge
+- AIR 200, Amazon ML Challenge 2026 (top 3.5% in 2025)
 - 1st place, IIT Bhilai Web Development Competition
 - Top 10 finalist, Toyota Hackathon
 - YC Startup School, accepted with Human Slop
@@ -104,7 +106,7 @@ Open-source robot runtime with ROS 2 interoperability · **5 merged PRs**
 LANGUAGES   Python · Rust · C/C++ · TypeScript · JavaScript · SQL · GLSL · CUDA
 AI / ML     PyTorch · GNNs (GATv2) · Safe RL · Transformers · OpenCV · CuPy
 PRODUCT     React · React Native · Flutter · FastAPI · Node.js · PostgreSQL · AWS · Supabase
-ROBOTICS    ROS 2 · Gazebo · Unity · MEEP · OpenMPI · SDR/USRP
+ROBOTICS    ROS 2 · Gazebo · MuJoCo · Unity · MATLAB · MEEP · OpenMPI · SDR/USRP
 PRACTICE    pytest · ruff · mypy · clippy · GitHub Actions · PyPI trusted publishing
 ```
 
