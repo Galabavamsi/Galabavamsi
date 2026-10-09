@@ -16,7 +16,7 @@ const CACHE = path.join(HERE, 'data', 'github.json');
 const SEED = process.env.SEED || new Date().toISOString().slice(0, 10);
 const USER = 'Galabavamsi';
 
-const TAGLINE = 'Mechatronics at IIT Bhilai. I write the open-source software robots learn from and run on.';
+const TAGLINE = 'Mechatronics at IIT Bhilai. Open-source contributor to robotics tools.';
 
 // Upstream projects shown in the open-source chart. Counts come from the API.
 const PROJECTS = [
