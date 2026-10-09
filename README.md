@@ -102,6 +102,7 @@ Open-source Rust robot runtime that records a run and re-executes it against new
 - 1st place — IIT Bhilai Web Development Competition
 - Top 10 finalist — Toyota Hackathon
 - Top 1% — JEE Advanced
+- PMSS scholar — Prime Minister's Scholarship Scheme (2024)
 
 <details>
 <summary><b>Toolbox</b></summary>
@@ -117,7 +118,7 @@ LANGUAGES
 
 ML, DATA, AND SCIENTIFIC COMPUTING
     PyTorch · PyTorch Geometric · OpenCV · NumPy · CuPy · Apache Arrow
-    Weights & Biases · MEEP (FDTD) · NS-3
+    Weights & Biases · MEEP (FDTD) · CST Studio Suite · NS-3
 
 SOFTWARE, CLOUD, AND TOOLING
     FastAPI · Node.js (Fastify) · React · React Native (Expo) · Flutter
