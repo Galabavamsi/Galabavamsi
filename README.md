@@ -1,5 +1,5 @@
 <a href="https://galabavamsi.github.io/portfolio/">
-  <img src="./assets/header.svg" width="100%" alt="Galaba Vamsi. Mechatronics at IIT Bhilai. Open-source contributor to robotics tools." />
+  <img src="./assets/header.svg" width="100%" alt="Galaba Vamsi. Mechatronics at IIT Bhilai. Full-stack, AI/ML, and open-source robotics." />
 </a>
 
 I send pull requests to open-source robotics tools that other teams maintain: robot-data conversion fixes in [HFlow](https://github.com/Hebbian-Robotics/hflow), evaluation features in [Inspect Robots](https://github.com/robocurve/inspect-robots) plus [inspect-robots-wandb](https://pypi.org/project/inspect-robots-wandb/), a community W&B plugin I wrote and publish, and a CLI fix plus documentation corrections in [Cerulion](https://github.com/cerulion-inc/cerulion). My own robotics and controls projects are simulations: ROS 2, MuJoCo, MATLAB/Simulink, Unity. I co-founded [Human Slop](https://humanslop.in) and co-authored two RIS papers.
