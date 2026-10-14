@@ -72,7 +72,7 @@ Open-source Rust robot runtime that records a run and re-executes it against new
 - **Co-author** — *Experience with RF Energy Harvesting-Driven Self-Powered RIS*, IEEE INDICON 2025 ([IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11392908/)).
 - **Co-author** — *A systematic literature review on simulation models and deployments for reconfigurable intelligent surfaces*, Ad Hoc Networks (Elsevier), 2026 ([ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1570870526001964)).
 - **Co-author (preprint)** — *Inspect Robots: Evaluating the Capabilities and Safety of Embodied AI*, [arXiv:2610.06306](https://arxiv.org/abs/2610.06306) (2026); submitted to the CoRL 2026 SPAIS workshop.
-- **First author (manuscript in preparation)** — a sample-accurate, IQ-level emulator for timed RIS control with controllers in the loop (successor to the earlier Open Emulator draft).
+- **Sole author (preprint draft, arXiv submission pending)** — [*Timed RIS Control in the Loop: A Sample-Accurate IQ-Level Emulator with Characterized Timing*](https://github.com/Galabavamsi/sremu-paper/blob/master/preprint/sremu-preprint-draft.pdf), 2026. Code: [sremu](https://github.com/Galabavamsi/sremu) (MIT). Successor to the earlier Open Emulator draft.
 
 [Google Scholar](https://scholar.google.com/citations?user=UNjZa1sAAAAJ&hl=en) · [ResearchGate](https://www.researchgate.net/profile/Galaba-Vamsi) · [IEEE Xplore](https://ieeexplore.ieee.org/author/943675488152924)
 
@@ -86,7 +86,7 @@ Open-source Rust robot runtime that records a run and re-executes it against new
 | [Quarter-car active suspension](https://quarter-car-afc.vercel.app) | Advanced Control Theory course project, simulation only. Reproduced Na et al. (IEEE TSMC 2022) approximation-free active suspension control in MATLAB/Simulink: after fitting two plant parameters to the paper's Case-10 experiment, the unchanged controller lands within about 6% of its error indices (IAE 0.129 vs 0.122). The paper's Case-B gains then fail a hold-out test, and LQR and skyhook baselines match or beat it at equal effort. [Code](https://github.com/Galabavamsi/quarter-car-afc-replication). |
 | [Whiteboard cleaning robot](https://github.com/Galabavamsi/whiteboard_robot) | 3-DOF Cartesian gantry that cleans a 90 × 90 cm whiteboard, simulated in ROS 2 Jazzy and Gazebo Harmonic: URDF/Xacro model, ros2_control, a raster path with 10 cm overlap, and coverage analysis from logged data. Built with Gajanand Kumawat. |
 | [Prompt Robot Arm](https://github.com/Galabavamsi/prompt-robot-arm) | Kinematic MuJoCo simulation where a prompt such as "sort red, blue, green" is parsed (rule-based for now) into a plan and a pick-and-place sequence, moving from a kinematic gripper to a SCARA arm with analytic inverse kinematics. |
-| [RIS-SIM v2](https://github.com/Galabavamsi/RIM-SIM-V2) | Open-source Python emulator for RIS-assisted radio links with USRP-style SDR interfaces. [v1](https://github.com/Galabavamsi/RIS-SIM) came from my 2025 internship; the 2026 rebuild adds six paper-grounded scenarios, a 20 Hz WebSocket dashboard, a ZeroMQ server, Monte Carlo runs, and 103 tests. |
+| [sremu](https://github.com/Galabavamsi/sremu) | Open-source (MIT), sample-accurate IQ-level emulator for timed RIS control: timestamped RIS commands take effect on an exact, logged sample; controllers run in the loop, deterministically or in real time; unmodified GNU Radio 3.10 runs through it bit-for-bit repeatably. ~2,100 tests. [Sole-author preprint draft](https://github.com/Galabavamsi/sremu-paper/blob/master/preprint/sremu-preprint-draft.pdf), arXiv submission pending. Built with Claude Code under my direction. Earlier versions: [RIS-SIM v2](https://github.com/Galabavamsi/RIM-SIM-V2) and [RIS-SIM](https://github.com/Galabavamsi/RIS-SIM) from my 2025 internship. |
 | [Arista Wi-Fi RRM](https://canva.link/puoqbe4okoid8rb) | Team project for Arista's problem at Inter IIT Tech Meet 14.0 (5th place, Dec 2025): client-aware Wi-Fi radio resource management in NS-3, with I/Q-based interference classification (STFT, DBSCAN, Dual-CNN; 16 classes) on a 5-AP, 50-client 802.11k/v topology. |
 | [Electron-GNN](https://github.com/Galabavamsi/Electron-GNN) | In-progress team project (advisor: Dr. Soumajit Pramanik): a two-tower graph neural network (GATv2) that predicts absorption-spectrum peaks from molecular geometry, so far trained and checked on two small molecules (water and ammonia). |
 | [AntennaNet](https://github.com/Galabavamsi/Antenna-Net) | Inverse antenna design: a surrogate network plus KD-tree nearest-neighbour anchoring over about 2,000 simulated patch-antenna S11 spectra, extended to 12 × 12-pixel (144-dimensional) layouts with a separate method-of-moments dataset, plus MEEP scripts for dataset generation. |
@@ -118,7 +118,7 @@ LANGUAGES
 
 ML, DATA, AND SCIENTIFIC COMPUTING
     PyTorch · PyTorch Geometric · OpenCV · NumPy · CuPy · Apache Arrow
-    Weights & Biases · MEEP (FDTD) · CST Studio Suite · NS-3
+    Weights & Biases · MEEP (FDTD) · CST Studio Suite · NS-3 · GNU Radio
 
 SOFTWARE, CLOUD, AND TOOLING
     FastAPI · Node.js (Fastify) · React · React Native (Expo) · Flutter
