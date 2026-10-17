@@ -92,10 +92,12 @@ Open-source Rust robot runtime that records a run and re-executes it against new
 | [AntennaNet](https://github.com/Galabavamsi/Antenna-Net) | Inverse antenna design: a surrogate network plus KD-tree nearest-neighbour anchoring over about 2,000 simulated patch-antenna S11 spectra, extended to 12 × 12-pixel (144-dimensional) layouts with a separate method-of-moments dataset, plus MEEP scripts for dataset generation. |
 | [Open-PyFX](https://github.com/Galabavamsi/open-pyfx) | GPU video-effects app in Python, ModernGL, and GLSL: CRT emulation using bundled CRT 3D LUT colour profiles, ASCII edge detection, and 4K export. |
 | [Lunar Crater Detection](https://github.com/Galabavamsi/Moon-Crater-Detection-using-DEM) | Crater extraction from lunar DEMs, reproducing Zhou et al. (2018): F1 0.839 on a 16-crater labelled region in Mare Serenitatis (13 true positives, 2 false positives, 3 misses); an optional CuPy path makes preprocessing about 4× faster. |
+| [WEAR Dataset Challenge @HASCA 2026](https://www.kaggle.com/competitions/3rd-wear-dataset-challenge-hasca-2026/leaderboard) | Kaggle wearable exercise recognition (18 exercises plus null, macro-F1): 5th of 232 teams on the final private leaderboard (0.93137). A fork of goodpjw2008's public notebook; my additions (per-subject whitening, whitened video-continuity link features, ZCA video input, multi-run ensemble decode) took my reproduction from 0.92497 to 0.93825 public. Built with Claude in working sessions. |
 | [HeatCast](https://github.com/Galabavamsi/heatcast) | Hackathon team project (FortyGuard Hackathon'26, Team HumanSlop): a neighborhood heat-planning scorecard for US planners combining thermal maps, heat-exceedance and streak analysis, vulnerability data, indoor sites, and walking routes. [Demo](https://web-pearl-ten-99.vercel.app). |
 
 ## Recognition
 
+- 5th of 232 teams — 3rd WEAR Dataset Challenge @HASCA 2026 (Kaggle, final private leaderboard, macro-F1 0.93137)
 - AIR 200 — Amazon ML Challenge 2026 (team)
 - 5th place — Arista Networks Wi-Fi challenge, Inter IIT Tech Meet 14.0 (team, Dec 2025)
 - AIR 700 — Amazon ML Challenge 2025 (team; 20,000+ participants)
