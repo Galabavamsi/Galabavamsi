@@ -93,7 +93,21 @@ Open-source Rust robot runtime that records a run and re-executes it against new
 | [Open-PyFX](https://github.com/Galabavamsi/open-pyfx) | GPU video-effects app in Python, ModernGL, and GLSL: CRT emulation using bundled CRT 3D LUT colour profiles, ASCII edge detection, and 4K export. |
 | [Lunar Crater Detection](https://github.com/Galabavamsi/Moon-Crater-Detection-using-DEM) | Crater extraction from lunar DEMs, reproducing Zhou et al. (2018): F1 0.839 on a 16-crater labelled region in Mare Serenitatis (13 true positives, 2 false positives, 3 misses); an optional CuPy path makes preprocessing about 4× faster. |
 | [WEAR Dataset Challenge @HASCA 2026](https://www.kaggle.com/competitions/3rd-wear-dataset-challenge-hasca-2026/leaderboard) | Kaggle wearable exercise recognition (18 exercises plus null, macro-F1): 5th of 232 teams on the final private leaderboard (0.93137). A fork of goodpjw2008's public notebook; my additions (per-subject whitening, whitened video-continuity link features, ZCA video input, multi-run ensemble decode) took my reproduction from 0.92497 to 0.93825 public. Built with Claude in working sessions. |
+| Pehchaan (private repo) | Team of 2, top-30 finalist of 4,723 in the RAKSHAM AI Cybersecurity Hackathon (IIT Delhi × Amazon), Track 01. Voice-clone fraud defence for UPI payments; I led ML and backend. A fine-tuned XLS-R-300M + AASIST detector reached 4.8% EER vs 34.3% off the shelf; a real phone-call test exposed a gap (24.6% EER), and learning the speakerphone channel and retraining cut it to 6.8% with 0% of genuine callers flagged. In simulation the risk engine holds 73% of scams vs 0.21% of genuine payments. |
+| [JalSakshi](https://github.com/Galabavamsi/jalsakshi) | "Water witness" for rural tap-water supply, built for Environmental Hacks (Heat & Water track): short Hindi phone check-ins verify whether water came, a rule engine sets the village day status, and repair tickets close only when households confirm. AWS Step Functions, Lambda, DynamoDB, Bedrock (Claude Haiku 4.5), CDK. Demo not live yet. |
+| [AI Village Pond Planning](https://github.com/Galabavamsi/ai-village-pond-planning) | Terrain-only FastAPI backend that turns contour maps into pond-site and catchment recommendations through metric projection, elevation-grid interpolation, D8 flow routing, and GeoJSON outputs. |
+| [Serenity](https://github.com/Galabavamsi/Serenity) | Team project (2024): Flutter wellness app with an on-device TFLite mood classifier from the camera, a stress questionnaire, exercises, games, and an expert-contact screen. |
 | [HeatCast](https://github.com/Galabavamsi/heatcast) | Hackathon team project (FortyGuard Hackathon'26, Team HumanSlop): a neighborhood heat-planning scorecard for US planners combining thermal maps, heat-exceedance and streak analysis, vulnerability data, indoor sites, and walking routes. [Demo](https://web-pearl-ten-99.vercel.app). |
+
+### More projects
+
+- [Homie](https://github.com/Galabavamsi/homie) — Flutter collaborative food-ordering MVP on Swiggy Food MCP: rooms, voting, cart, and bill splitting (Express, PostgreSQL, Socket.IO).
+- [Rumikai](https://github.com/Galabavamsi/rumikai) — "Widget Intelligence": an Expo app with Kotlin Android and Swift iOS widgets.
+- [Focus-Vault](https://github.com/Galabavamsi/Focus-Vault) — local-first desktop study vault.
+- [MERAZ 2026 website](https://github.com/Galabavamsi/meraz) — TRON-themed Three.js and Supabase site for a DSAI club competition at IIT Bhilai.
+- [LexAI](https://github.com/Galabavamsi/lexai) — legal intelligence platform (early web app).
+- [StyleMix](https://github.com/Galabavamsi/stylemix) — virtual try-on and image generation site (early web app).
+- CHI-Bench agent — team entry in the IEEE Big Data Cup 2026 Kaggle hackathon (private repo).
 
 ## Recognition
 
@@ -105,6 +119,8 @@ Open-source Rust robot runtime that records a run and re-executes it against new
 - Top 10 finalist — Toyota Hackathon
 - Top 1% — JEE Advanced
 - PMSS scholar — Prime Minister's Scholarship Scheme (2024)
+- Subroto Mukherjee Scholarship — IAFBA (2023)
+- Attended YC Startup School, Bengaluru
 
 <details>
 <summary><b>Toolbox</b></summary>
