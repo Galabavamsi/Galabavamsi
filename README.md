@@ -4,7 +4,7 @@
 
 I send pull requests to open-source robotics tools that other teams maintain: robot-data conversion fixes in [HFlow](https://github.com/Hebbian-Robotics/hflow), evaluation features in [Inspect Robots](https://github.com/robocurve/inspect-robots) plus [inspect-robots-wandb](https://pypi.org/project/inspect-robots-wandb/), a community W&B plugin I wrote and publish, and a CLI fix plus documentation corrections in [Cerulion](https://github.com/cerulion-inc/cerulion). My own robotics and controls projects are simulations: ROS 2, MuJoCo, MATLAB/Simulink, Unity. I co-founded [Human Slop](https://humanslop.in) and co-authored two RIS papers.
 
-[Portfolio](https://galabavamsi.github.io/portfolio/) · [Resume](https://galabavamsi.github.io/portfolio/resume_vamsi.pdf) · [LinkedIn](https://www.linkedin.com/in/galabavamsi/) · [Google Scholar](https://scholar.google.com/citations?user=UNjZa1sAAAAJ&hl=en) · [Email](mailto:galabavamsi12@gmail.com) · [X](https://x.com/Galaba_Vamsi) · [YouTube](https://www.youtube.com/@galabavamsi12)
+[Portfolio](https://galabavamsi.github.io/portfolio/) · [Resume](https://galabavamsi.github.io/portfolio/resume.html) · [LinkedIn](https://www.linkedin.com/in/galabavamsi/) · [Google Scholar](https://scholar.google.com/citations?user=UNjZa1sAAAAJ&hl=en) · [Email](mailto:galabavamsi12@gmail.com) · [X](https://x.com/Galaba_Vamsi) · [YouTube](https://www.youtube.com/@galabavamsi12)
 
 ## Now
 
