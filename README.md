@@ -10,7 +10,7 @@ I send pull requests to open-source robotics tools that other teams maintain: ro
 
 - Building [Human Slop](https://humanslop.in), live on the web and [Android](https://play.google.com/store/apps/details?id=com.humanslop.app).
 - Three Inspect Robots PRs open, including checkpoint and resume for long robot eval sets.
-- Co-authoring the Inspect Robots paper, submitted to the CoRL 2026 SPAIS workshop.
+- Co-author of the Inspect Robots paper, accepted to the SPAIS Workshop at CoRL 2026 (poster).
 - Open to robotics software internships and new-grad roles (graduating May 2027), and research collaborations.
 
 ## Open source
@@ -71,7 +71,7 @@ Open-source Rust robot runtime that records a run and re-executes it against new
 
 - **Co-author** — *Experience with RF Energy Harvesting-Driven Self-Powered RIS*, IEEE INDICON 2025 ([IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11392908/)).
 - **Co-author** — *A systematic literature review on simulation models and deployments for reconfigurable intelligent surfaces*, Ad Hoc Networks (Elsevier), 2026 ([ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1570870526001964)).
-- **Co-author (preprint)** — *Inspect Robots: Evaluating the Capabilities and Safety of Embodied AI*, [arXiv:2610.06306](https://arxiv.org/abs/2610.06306) (2026); submitted to the CoRL 2026 SPAIS workshop.
+- **Co-author** — *Inspect Robots: Evaluating the Capabilities and Safety of Embodied AI*, [arXiv:2610.06306](https://arxiv.org/abs/2610.06306) (2026); accepted to the Science of Physical AI Safety (SPAIS) Workshop at CoRL 2026 (poster).
 - **Sole author (preprint draft, arXiv submission pending)** — [*Timed RIS Control in the Loop: A Sample-Accurate IQ-Level Emulator with Characterized Timing*](https://github.com/Galabavamsi/sremu-paper/blob/master/preprint/sremu-preprint-draft.pdf), 2026. Code: [sremu](https://github.com/Galabavamsi/sremu) (MIT). Successor to the earlier Open Emulator draft.
 
 [Google Scholar](https://scholar.google.com/citations?user=UNjZa1sAAAAJ&hl=en) · [ResearchGate](https://www.researchgate.net/profile/Galaba-Vamsi) · [IEEE Xplore](https://ieeexplore.ieee.org/author/943675488152924)
