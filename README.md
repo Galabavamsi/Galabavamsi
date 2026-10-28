@@ -2,14 +2,14 @@
   <img src="./assets/header.svg" width="100%" alt="Galaba Vamsi. Mechatronics at IIT Bhilai. Full-stack, AI/ML, and open-source robotics." />
 </a>
 
-I send pull requests to open-source robotics tools that other teams maintain: robot-data conversion fixes in [HFlow](https://github.com/Hebbian-Robotics/hflow), evaluation features in [Inspect Robots](https://github.com/robocurve/inspect-robots) plus [inspect-robots-wandb](https://pypi.org/project/inspect-robots-wandb/), a community W&B plugin I wrote and publish, and a CLI fix plus documentation corrections in [Cerulion](https://github.com/cerulion-inc/cerulion). My own robotics and controls projects are simulations: ROS 2, MuJoCo, MATLAB/Simulink, Unity. I co-founded [Human Slop](https://humanslop.in), I'm exploring a robotics startup, [Robotropic](https://www.robotropic.com), and I co-authored two RIS papers.
+I send pull requests to open-source robotics tools that other teams maintain: robot-data conversion fixes in [HFlow](https://github.com/Hebbian-Robotics/hflow), evaluation features in [Inspect Robots](https://github.com/robocurve/inspect-robots) plus [inspect-robots-wandb](https://pypi.org/project/inspect-robots-wandb/), a community W&B plugin I wrote and publish, and a CLI fix plus documentation corrections in [Cerulion](https://github.com/cerulion-inc/cerulion). My own robotics and controls projects are simulations: ROS 2, MuJoCo, MATLAB/Simulink, Unity. I co-founded [Human Slop](https://humanslop.in), I founded [Robotropic](https://www.robotropic.com), a physical-AI startup, and I co-authored two RIS papers.
 
 [Portfolio](https://galabavamsi.github.io/portfolio/) · [Resume](https://galabavamsi.github.io/portfolio/resume.html) · [LinkedIn](https://www.linkedin.com/in/galabavamsi/) · [Google Scholar](https://scholar.google.com/citations?user=UNjZa1sAAAAJ&hl=en) · [Email](mailto:galabavamsi12@gmail.com) · [X](https://x.com/Galaba_Vamsi) · [YouTube](https://www.youtube.com/@galabavamsi12)
 
 ## Now
 
 - Building [Human Slop](https://humanslop.in), live on the web and [Android](https://play.google.com/store/apps/details?id=com.humanslop.app).
-- Exploring [Robotropic](https://www.robotropic.com) (pre-product): Harness, a workspace where a factory's team and AI agents change robot skills safely, with every change checked, rolled out cell by cell, and recorded. Building the demo on a simulated MuJoCo and ROS 2 floor.
+- Building [Robotropic](https://www.robotropic.com) Harness: a workspace where a factory's team and AI agents change robot skills safely, with every change checked, rolled out cell by cell, and recorded.
 - Three Inspect Robots PRs open, including checkpoint and resume for long robot eval sets.
 - Co-author of the Inspect Robots paper, accepted to the SPAIS Workshop at CoRL 2026 (poster).
 - Open to robotics software internships and new-grad roles (graduating May 2027), and research collaborations.
