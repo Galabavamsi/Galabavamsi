@@ -58,7 +58,7 @@ MIT-licensed evaluation framework for physical AI · **2 merged PRs · 3 open ·
 - [PR #550 · open](https://github.com/robocurve/inspect-robots/pull/550) — Optional `on_eval_error` sink hook.
 - [PR #551 · open](https://github.com/robocurve/inspect-robots/pull/551) — Community plugins section in the plugin guide.
 
-### [Cerulion](https://github.com/cerulion-inc/cerulion)
+### [Cerulion](https://github.com/cerulion-inc/cerulion) · [Cerulion (YC S24)](https://www.ycombinator.com/companies/cerulion)
 
 Open-source Rust robot runtime that records a run and re-executes it against new code (iceoryx2 shared memory, ROS 2 interop) · **5 merged PRs: one CLI fix and four documentation and comment corrections**
 
@@ -94,7 +94,7 @@ Open-source Rust robot runtime that records a run and re-executes it against new
 | [Open-PyFX](https://github.com/Galabavamsi/open-pyfx) | GPU video-effects app in Python, ModernGL, and GLSL: CRT emulation using bundled CRT 3D LUT colour profiles, ASCII edge detection, and 4K export. |
 | [Lunar Crater Detection](https://github.com/Galabavamsi/Moon-Crater-Detection-using-DEM) | Crater extraction from lunar DEMs, reproducing Zhou et al. (2018): F1 0.839 on a 16-crater labelled region in Mare Serenitatis (13 true positives, 2 false positives, 3 misses); an optional CuPy path makes preprocessing about 4× faster. |
 | [WEAR Dataset Challenge @HASCA 2026](https://www.kaggle.com/competitions/3rd-wear-dataset-challenge-hasca-2026/leaderboard) | Kaggle wearable exercise recognition (18 exercises plus null, macro-F1): 5th of 232 teams on the final private leaderboard (0.93137). A fork of goodpjw2008's public notebook; my additions (per-subject whitening, whitened video-continuity link features, ZCA video input, multi-run ensemble decode) took my reproduction from 0.92497 to 0.93825 public. Built with Claude in working sessions. |
-| [Pehchaan](https://github.com/Galabavamsi/pehchaan) | Team of 2, top 10 (Grand Jury round) of 4,500+ teams nationwide in the RAKSHAM AI Cybersecurity Hackathon (IIT Delhi, I4C and Amazon). Voice-clone fraud defence for UPI payments; I led ML and backend. A fine-tuned XLS-R-300M + AASIST detector reached 4.8% EER vs 34.3% off the shelf; a real phone-call test exposed a gap (24.6% EER), and learning the speakerphone channel and retraining cut it to 6.8% with 0% of genuine callers flagged. In simulation the risk engine holds 73% of scams vs 0.21% of genuine payments. For the on-site round we added an Android SDK and demo payment app: on two real phones, a consented cloned-voice call went from pay to hold in 14 s. |
+| [Pehchaan](https://github.com/Galabavamsi/pehchaan) | Team of 2, [Grand Finalist (Top 8)](https://galabavamsi.github.io/portfolio/assets/certificates/raksham-2026.webp) of 4,500+ teams nationwide in the RAKSHAM AI Cybersecurity Hackathon (IIT Delhi, I4C and Amazon). Voice-clone fraud defence for UPI payments; I led ML and backend. A fine-tuned XLS-R-300M + AASIST detector reached 4.8% EER vs 34.3% off the shelf; a real phone-call test exposed a gap (24.6% EER), and retraining with real-call clips plus a learned speakerphone channel cut it to 6.8% with 0% of genuine clips flagged. In simulation the risk engine holds 73% of scams vs 0.21% of genuine payments. For the on-site round we added an Android SDK and demo payment app: on two real phones, a consented cloned-voice call went from pay to hold in 14 s. |
 | [JalSakshi](https://github.com/Galabavamsi/jalsakshi) | "Water witness" for rural tap-water supply, built for Environmental Hacks (Heat & Water track): short Hindi phone check-ins verify whether water came, a rule engine sets the village day status, and repair tickets close only when households confirm. AWS Step Functions, Lambda, DynamoDB, Bedrock (Claude Haiku 4.5), CDK. Demo not live yet. |
 | [AI Village Pond Planning](https://github.com/Galabavamsi/ai-village-pond-planning) | Terrain-only FastAPI backend that turns contour maps into pond-site and catchment recommendations through metric projection, elevation-grid interpolation, D8 flow routing, and GeoJSON outputs. |
 | [Serenity](https://github.com/Galabavamsi/Serenity) | Team project (2024): Flutter wellness app with an on-device TFLite mood classifier from the camera, a stress questionnaire, exercises, games, and an expert-contact screen. |
@@ -112,11 +112,11 @@ Open-source Rust robot runtime that records a run and re-executes it against new
 
 ## Recognition
 
-- Top 10, Grand Jury round (4,500+ teams nationwide) — RAKSHAM AI Cybersecurity Hackathon, IIT Delhi, I4C and Amazon (Pehchaan, team of 2, Oct 2026)
+- [Grand Finalist (Top 8)](https://galabavamsi.github.io/portfolio/assets/certificates/raksham-2026.webp) (4,500+ teams nationwide) — RAKSHAM AI Cybersecurity Hackathon, IIT Delhi, I4C and Amazon (Pehchaan, team of 2, Oct 2026)
 - 5th of 232 teams — 3rd WEAR Dataset Challenge @HASCA 2026 (Kaggle, final private leaderboard, macro-F1 0.93137)
 - AIR 200 — Amazon ML Challenge 2026 (team)
 - 5th place — Arista Networks Wi-Fi challenge, Inter IIT Tech Meet 14.0 (team, Dec 2025)
-- AIR 700 — Amazon ML Challenge 2025 (team; 20,000+ participants)
+- AIR 747 — Amazon ML Challenge 2025 (team; 20,000+ participants)
 - 1st place — IIT Bhilai Web Development Competition
 - Top 10 finalist — Toyota Hackathon
 - Top 1% — JEE Advanced
